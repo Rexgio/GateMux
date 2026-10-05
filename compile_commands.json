@@ -1,0 +1,59 @@
+[
+  {
+    "file": "src/arena.c",
+    "arguments": [
+      "/usr/sbin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-std=c17",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/arena.c",
+      "-o",
+      "build/arena.o"
+    ],
+    "directory": "/home/smav/Work/GateMux",
+    "output": "build/arena.o"
+  },
+  {
+    "file": "src/main.c",
+    "arguments": [
+      "/usr/sbin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-std=c17",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/main.c",
+      "-o",
+      "build/main.o"
+    ],
+    "directory": "/home/smav/Work/GateMux",
+    "output": "build/main.o"
+  },
+  {
+    "file": "src/spawn.c",
+    "arguments": [
+      "/usr/sbin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-std=c17",
+      "-Iinclude",
+      "-MMD",
+      "-MP",
+      "-c",
+      "src/spawn.c",
+      "-o",
+      "build/spawn.o"
+    ],
+    "directory": "/home/smav/Work/GateMux",
+    "output": "build/spawn.o"
+  }
+]
